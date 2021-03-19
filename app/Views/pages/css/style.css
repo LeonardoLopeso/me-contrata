@@ -30,6 +30,7 @@ header {
   border-bottom: 2px solid #fff;
 }
 header .logo h2 {
+  font-size: 1.8rem;
   font-weight: normal;
   color: #444;
 }
@@ -59,6 +60,7 @@ header .menu-desktop a:nth-child(5) {
 
 .titulo-destaque h2 {
   color: #444;
+  font-size: 1.8rem;
   font-weight: normal;
 }
 
@@ -92,9 +94,14 @@ section .pessoas-info {
 .pessoa-desc {
   padding: 10px;
 }
+
 .pessoa-desc .pessoa-desc-nome {
   color: #444;
   padding: 5px 0;
+}
+.pessoa-desc-nome h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 .pessoa-desc .pessoa-desc-descricao {
   font-size: 0.9rem;
@@ -108,6 +115,9 @@ section .pessoas-info {
 .pessoa-desc-contato span i {
   margin-right: 5px;
   cursor: pointer;
+}
+.possoa-desc-contato span:nth-child(2) {
+  font-size: 0.8rem;
 }
 
 /*Estilo da página de cadastro*/
@@ -133,6 +143,7 @@ section .pessoas-info {
 }
 .cadastro-form h5 {
   color: #666;
+  font-size: 14px;
   font-weight: normal;
   margin-bottom: 30px;
 }
@@ -145,9 +156,11 @@ section .pessoas-info {
   margin-bottom: 15px;
   border-radius: 4px;
   border: 0;
+  outline: none;
 }
 .cadastro-form input[type='file'] {
-  width: 100%;
+  width: 60%;
+
   background: #fff;
 }
 .cadastro-form input[type='text']:nth-child(4) {
@@ -179,16 +192,33 @@ section .pessoas-info {
   color: #444;
   font-size: 20px;
   font-weight: normal;
-  margin: 30px 0;
+  margin: 30px 0 0 0;
+}
+.cadastro-medias-socais h5 {
+  color: #666;
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin: 0 0 30px 0;
+}
+
+.cadastro-medias-icon {
+  width: 90%;
+  height: 40px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+.cadastro-medias-icon i {
+  margin-right: 10px;
 }
 
 .cadastro-medias-socais input[type='text'] {
-  width: 95%;
+  width: 90%;
   height: 40px;
 
-  padding-left: 8px;
-  margin-bottom: 15px;
+  padding-left: 10px;
   border: 0;
+  outline: none;
 }
 
 .cadastro-img {

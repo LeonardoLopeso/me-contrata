@@ -16,10 +16,19 @@
             <div class="cadastro-medias">
                 <div class="cadastro-medias-socais">
                     <h3>Redes Sociais</h3>
-                    <input type="text" name="instagram" placeholder="@Instagram">
-                    <input type="text" name="facebook" placeholder="@Facebook">
-                    <input type="text" name="Linkedin" placeholder="@Linkedin">
-                    <input type="text" name="telegram" placeholder="@Telegram">
+                    <h5>Adicione as redes sociais que possuir</h5>
+                    <div class="cadastro-medias-icon">
+                        <i class="fa fa-instagram"></i><input type="text" name="instagram" placeholder="Instagram">
+                    </div>
+                    <div class="cadastro-medias-icon">
+                    <i class="fa fa-facebook"></i><input type="text" name="facebook" placeholder="Facebook">
+                    </div>
+                    <div class="cadastro-medias-icon">
+                    <i class="fa fa-linkedin"></i><input type="text" name="Linkedin" placeholder="Linkedin">
+                    </div>
+                    <div class="cadastro-medias-icon">
+                    <i class="fa fa-telegram"></i><input type="text" name="telegram" placeholder="Telegram">
+                    </div>
                 </div>
                 <div class="cadastro-img">
                     <div class="">
