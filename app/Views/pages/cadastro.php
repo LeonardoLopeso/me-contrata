@@ -6,7 +6,7 @@
                 <h5>Os campos com <span style="color:red;">*</span> são obrigatórios</h5>
                 <input type="text" name="nome" placeholder="Nome completo *">
                 <input type="text" name="telefone" placeholder="(00)00000-0000 *">
-                <input type="checkbox"><span>Se não tiver WhatsApp marque esta opção</span>
+                <input type="checkbox" name="whatsapp"><span>Se não tiver WhatsApp marque esta opção</span>
                 <input type="email" name="email" placeholder="E-mail *">
                 <input type="text" name="funcao" placeholder="Função ou Habilidade *">
                 <input type="file" name="foto">
@@ -21,13 +21,13 @@
                         <i class="fa fa-instagram"></i><input type="text" name="instagram" placeholder="Instagram">
                     </div>
                     <div class="cadastro-medias-icon">
-                    <i class="fa fa-facebook"></i><input type="text" name="facebook" placeholder="Facebook">
+                        <i class="fa fa-facebook"></i><input type="text" name="facebook" placeholder="Facebook">
                     </div>
                     <div class="cadastro-medias-icon">
-                    <i class="fa fa-linkedin"></i><input type="text" name="Linkedin" placeholder="Linkedin">
+                        <i class="fa fa-linkedin"></i><input type="text" name="Linkedin" placeholder="Linkedin">
                     </div>
                     <div class="cadastro-medias-icon">
-                    <i class="fa fa-telegram"></i><input type="text" name="telegram" placeholder="Telegram">
+                        <i class="fa fa-telegram"></i><input type="text" name="telegram" placeholder="Telegram">
                     </div>
                 </div>
                 <div class="cadastro-img">
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="cadastro-form-btn">
-                <input type="submit" value="Cadastrar">
+                <input type="submit" name="acao" value="Cadastrar">
             </div>
         </form>
     </div>

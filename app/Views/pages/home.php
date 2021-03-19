@@ -10,6 +10,7 @@
                 <div class="pessoa-desc">
                     <div class="pessoa-desc-nome">
                         <h3>Fulano de Tal</h3>
+                        <h5>Função ou Habilidade</h5>
                     </div>
                     <div class="pessoa-desc-descricao">
                         <p>Uma descrição qualquer da pessoa para que as empresas possa ter um chonhecimento prévio e mais alguma coisa a se falar.</p>

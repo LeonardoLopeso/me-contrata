@@ -103,6 +103,11 @@ section .pessoas-info {
   font-size: 1.2rem;
   font-weight: 700;
 }
+.pessoa-desc-nome h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #666;
+}
 .pessoa-desc .pessoa-desc-descricao {
   font-size: 0.9rem;
   color: #444;
