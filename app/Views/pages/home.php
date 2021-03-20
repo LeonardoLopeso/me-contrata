@@ -2,20 +2,19 @@
     <div class="pessoas-info">
         <div class="pessoa-wraper">
             <?php 
-                for ($i=0; $i<=6;$i++)
-                {
+                foreach($arr['consulta'] as $value){
             ?>
             <div class="pessoa-single">
                 <div class="pessoa-foto">
-                    <i class="fa fa-user"></i>
+                    <img src="<?php echo INCLUDE_PATH_FULL.'uploads/'.$value['foto']; ?>">
                 </div>
                 <div class="pessoa-desc">
                     <div class="pessoa-desc-nome">
-                        <h3>Fulano de Tal</h3>
-                        <h5>Função ou Habilidade</h5>
+                        <h3><?php echo $value['nome']; ?></h3>
+                        <h5><?php echo $value['funcao']; ?></h5>
                     </div>
                     <div class="pessoa-desc-descricao">
-                        <p>Uma descrição qualquer da pessoa para que as empresas possa ter um chonhecimento prévio e mais alguma coisa a se falar.</p>
+                        <p><?php echo $value['descricao']; ?></p>
                     </div>
                     <div class="pessoa-desc-contato">
                         <span>
@@ -25,7 +24,7 @@
                             <i class="fa fa-linkedin"></i>
                             <i class="fa fa-telegram"></i>
                         </span>
-                        <span>(84)99999-8888</span>
+                        <span><?php echo $value['telefone']; ?></span>
                     </div>
                 </div>
             </div>

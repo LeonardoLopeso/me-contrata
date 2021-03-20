@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 use App\Views\MainView;
+use App\Models\CRUDModel;
+use App\Util\ConstantesGenericasUtil;
 
 /**
  * 
@@ -17,6 +19,7 @@ class HomeController
 
     public function executar()
     {
-        $this->view->render(array('titulo'=>'Título da page'));
+        $consulta = CRUDModel::select();
+        $this->view->render(array('titulo'=>'Título da page','consulta'=>$consulta));
     }
 }

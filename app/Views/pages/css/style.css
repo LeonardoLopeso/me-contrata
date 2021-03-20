@@ -68,18 +68,16 @@ header .menu-desktop a:nth-child(5) {
 
 section .pessoas-info {
   width: 100%;
-  padding: 20px 5px;
+  padding: 20px 0;
 }
 .pessoa-wraper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 100%;
 }
 .pessoa-single {
   width: calc(33% - 5px);
-  /* height: 320px; */
-  margin: 15px 0;
+  margin: 15px 4px;
   background: #ccc;
   border-radius: 8px;
   box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.35);
@@ -92,6 +90,12 @@ section .pessoas-info {
   height: 193px;
 
   background: #888;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.pessoa-foto img {
+  width: 100%;
+  height: 100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
