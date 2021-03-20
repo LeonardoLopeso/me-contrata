@@ -6,7 +6,9 @@
                 {
             ?>
             <div class="pessoa-single">
-                <div class="pessoa-foto"></div>
+                <div class="pessoa-foto">
+                    <i class="fa fa-user"></i>
+                </div>
                 <div class="pessoa-desc">
                     <div class="pessoa-desc-nome">
                         <h3>Fulano de Tal</h3>

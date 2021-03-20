@@ -1,5 +1,24 @@
 <div class="container">
     <div class="cadastro">
+        <?php
+            if(isset($_SESSION['cadastro'])) {
+                $result_cad = !empty($_SESSION['cadastro']) ? $_SESSION['cadastro'] : [];
+                switch ($result_cad) {
+                    case @$result_cad['cadastro'] == 'sucesso':
+                        echo '<div id="infoCadsuccess" class="alert alert-success">'.@$result_cad['desc'].'</div>';
+                        session_destroy();
+                        break;
+                    case @$result_cad['cadastro'] == 'vazio':
+                        echo '<div id="infoCadCampoVazio" class="alert alert-primary">'.@$result_cad['desc'].'</div>';
+                        session_destroy();
+                        break;
+                    case @$result_cad['cadastro'] == 'erro':
+                        echo '<div id="infoCadErro" class="alert alert-danger">'.@$result_cad['desc'].'</div>';
+                        session_destroy();
+                        break;
+                }
+            }
+        ?>
         <form method="post" enctype="multipart/form-data">
             <div class="cadastro-form">
                 <h3>Preencha o formulário de cadastro</h3>
@@ -24,7 +43,7 @@
                         <i class="fa fa-facebook"></i><input type="text" name="facebook" placeholder="Facebook">
                     </div>
                     <div class="cadastro-medias-icon">
-                        <i class="fa fa-linkedin"></i><input type="text" name="Linkedin" placeholder="Linkedin">
+                        <i class="fa fa-linkedin"></i><input type="text" name="linkedin" placeholder="Linkedin">
                     </div>
                     <div class="cadastro-medias-icon">
                         <i class="fa fa-telegram"></i><input type="text" name="telegram" placeholder="Telegram">
@@ -41,5 +60,4 @@
             </div>
         </form>
     </div>
-    <div class=""></div>
 </div>
