@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Views\MainView;
-use App\Models\CadastroModel;
+use App\Models\CRUDModel;
 use App\Util\ConstantesGenericasUtil;
 
 /**
@@ -43,7 +43,7 @@ class CadastroController
 
                 if ($this->validaFoto($foto)) {
                     $nomeFoto = $this->uploadFile($foto);
-                    if(CadastroModel::insert($nome,$fone,$email,$funcao,$nomeFoto,$desc,$whats,$instagram,$facebook,$linkedin,$telegram,$data)) {
+                    if(CRUDModel::insert($nome,$fone,$email,$funcao,$nomeFoto,$desc,$whats,$instagram,$facebook,$linkedin,$telegram,$data)) {
                         $_SESSION['cadastro'] = ['cadastro'=>'sucesso','desc'=>ConstantesGenericasUtil::MSG_CADASTRO_SUCESSO];
                     }
                 }else{

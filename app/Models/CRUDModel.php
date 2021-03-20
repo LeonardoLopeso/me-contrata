@@ -5,7 +5,7 @@ namespace App\Models;
 /**
  * 
  */
-class CadastroModel
+class CRUDModel
 {
     public static function insert($nome,$fone,$email,$func,$foto,$desc,$whats,$insta,$face,$linkedin,$telegram,$data)
     {
