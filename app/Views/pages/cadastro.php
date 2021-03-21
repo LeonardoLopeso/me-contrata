@@ -25,7 +25,7 @@
                 <h5>Os campos com <span style="color:red;">*</span> são obrigatórios</h5>
                 <input type="text" name="nome" placeholder="Nome completo *">
                 <input type="text" name="telefone" placeholder="(00)00000-0000 *">
-                <input type="checkbox" name="whatsapp"><span>Se não tiver WhatsApp marque esta opção</span>
+                <input type="checkbox" name="whatsapp"><span id="checkWhatsInfo">Se não tiver WhatsApp marque esta opção</span>
                 <input type="email" name="email" placeholder="E-mail *">
                 <input type="text" name="funcao" placeholder="Função ou Habilidade *">
                 <input type="file" name="foto">
@@ -61,3 +61,6 @@
         </form>
     </div>
 </div>
+<section class="informe">
+    
+</section>

@@ -22,7 +22,7 @@ class CRUDModel
 
     public static function select()
     {
-        $sql = MySqlModel::conectar()->prepare("SELECT * FROM `cadastro` ORDER BY id DESC");
+        $sql = MySqlModel::conectar()->prepare("SELECT * FROM `cadastro`");
         $sql->execute();
         $result = $sql->fetchAll(PDO::FETCH_ASSOC);
         return $result;
