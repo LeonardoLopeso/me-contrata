@@ -1,4 +1,4 @@
-![Logo of the project](http://logo_link)
+![Me-Contrata](http://logo_link)
 
 ## Me-Contrata
 
