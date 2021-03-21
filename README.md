@@ -2,10 +2,10 @@
 
 ## Me-Contrata
 
-Visto o desemprego que afeta muitos e pessoas com placas nos sinais pedido oportunidade
-de emprego, este projeto tem a finalidade de realizar cadastro de pessoas que buscas empregos
-para que possam ser vistas por empresas, empresários ou pessoas que queira contratar
-alguém para um trabalho que seja fixo ou temporário.
+Visto o desemprego que afeta muitos e pessoas com placas nos sinais pedindo oportunidade
+de emprego, este projeto tem a finalidade de realizar cadastro de pessoas que buscam empregos
+e para que possam ser vistas por empresas, empresários ou pessoas que queiram contratar
+alguém para um trabalho, seja ele fixo ou temporário.
 
 É um projeto que conta com a solidariedade de empresas/empresários para que possam
 ajudar pessoas que buscam uma oportunidade de trabalho.
