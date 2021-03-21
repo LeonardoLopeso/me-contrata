@@ -76,6 +76,6 @@ Aqui estão as imagens e descrições. Conteúdo principal.
 
 ## Authors
 
-- **Leonardo Lopes**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
+- **Leonardo Lopes**: @LeonardoLopeso (https://github.com/LeonardoLopeso)
 
 Obrigado por me visitar e boa codificação!
