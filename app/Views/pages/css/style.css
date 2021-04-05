@@ -152,8 +152,8 @@ section .pessoas-info {
   width: 100%;
 }
 .pessoa-single {
-  width: calc(33% - 5px);
-  margin: 15px 4px;
+  width: 30%;
+  margin: 15px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.35);
