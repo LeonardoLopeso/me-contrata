@@ -1,6 +1,6 @@
 ![Me-Contrata](http://logo_link)
 
-## Me-Contrata
+## 👷 Me-Contrata
 
 Visto o desemprego que afeta muitos e pessoas com placas nos sinais pedindo oportunidade
 de emprego, este projeto tem a finalidade de realizar cadastro de pessoas que buscam empregos
@@ -12,7 +12,7 @@ ajudar pessoas que buscam uma oportunidade de trabalho.
 
 Obs! O site não está no ar.
 
-## Tecnologias
+## 💻 Tecnologias
 
 Aqui estão as tecnologias usadas neste projeto
 
@@ -34,7 +34,7 @@ Aqui estão as tecnologias usadas neste projeto
   - Composer
   - POO
 
-## Serviço(s) usado(s)
+## ⚙️ Serviço(s) usado(s)
 
 - Github
 - ...
@@ -63,7 +63,7 @@ Aqui estão as imagens e descrições. Conteúdo principal.
 - Consulta de pessoas cadastradas
 - links para as redes sociais cadastradas
 
-## Links
+## 🔗 Links
 
 - Repository: https://github.com/LeonardoLopeso/me-contrata
   - No caso de bugs sensíveis, como vulnerabilidades de segurança, por favor entre em contato
@@ -74,7 +74,7 @@ Aqui estão as imagens e descrições. Conteúdo principal.
 
 1.0.0.0
 
-## Authors
+## 🧑 Authors
 
 - **Leonardo Lopes**: @LeonardoLopeso (https://github.com/LeonardoLopeso)
 
